@@ -1,27 +1,57 @@
-/* heading
-id:intro
-image
-dog
-dogimage */
+*{
+    margin: 0px !important;
+}
+body{
+    width: 100% !important;
+    height: 100vh !important;
+}
 .heading{
 text-align: center;
-display: flex;
-flex-direction: column;
+width: 100% !important;
+height: 100vh !important;
+/* display: flex; */
+/* flex-direction: row; */
 background: linear-gradient(to right,green,yellow);
    
+}
+.head{
+    display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+
+gap:20px;
 }
 #intro{
 text-align: center;
 color:brown;
-font-weight: 1000px;
-font-size: 100px;
+font-weight: 10px;
+font-size: 50px;
+}
+.img{
+    background-color: blueviolet;
+}
+.dogbtn{
+width:150px;
+height: 50px;
+border-radius: 10px;
+border: none;
+color: rgb(232, 232, 232);
+font-weight: 600;
+background:linear-gradient( 90deg,rgb(233, 1, 167),rgb(246, 51, 83),red
+)
+}
+.dogbtn:hover{
+    background:linear-gradient( 90deg,rgb(248, 12, 12),rgb(246, 51, 83),rgb(233, 1, 167))
+    
 }
 .image{
-    display: flex;
-    flex-direction: row;
-    width:900px;
-    height:700px;
-    
+  
+    width:100px;
+    height:100px;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(to right,green,yellow);
 
 }
@@ -29,16 +59,18 @@ font-size: 100px;
     width:500px;
     height:500px
 }
-.dogimage{
+.main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space;
+    justify-content: center !important;
+    align-items: center !important;
     gap:10px;
-    padding: 20px;
-    margin:20px;
+   
     background: rgb(115, 90, 227);
     border-radius: 20%;
-    width:300px;
-    height: 250px;
+    
+}
+.dogimage{
+    width: 400px;
 }

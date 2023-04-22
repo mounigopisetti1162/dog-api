@@ -1,8 +1,18 @@
 document.body.innerHTML=`<div class="heading"> <h4 id="intro">GET YOUR DOG</h4>
-<img class="image" src="https://tse1.mm.bing.net/th?id=OIP.SlnjMSdNaDSG00NjiyOZEQHaFD&pid=Api&rs=1&c=1&qlt=95&w=141&h=96">
-<br><button class="DOG" onclick="getdog()">BOWWWWWWWW </button>
+
+<div class="head">
+
+<div class="btn">
+<button class="dogbtn" onclick="getdog()">BOWWWWWWWW </button>
+<div id="main">
+
 </div>
-<div id="main"></div>`
+
+
+</div>
+</div>
+</div>`
+
 
 
 async function getdog()
